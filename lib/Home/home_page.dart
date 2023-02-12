@@ -1,8 +1,8 @@
-import 'package:appyoga/Pages/social_page.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:appyoga/main.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:appyoga/delayed_animation.dart';
+import 'package:appyoga/Pages/Social/social_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

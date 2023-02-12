@@ -1,10 +1,10 @@
-import 'package:appyoga/delayed_animation.dart';
-import 'package:appyoga/main.dart';
 import 'package:flutter/material.dart';
+import 'package:appyoga/main.dart';
+import 'package:appyoga/delayed_animation.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class IntroSocialPage extends StatelessWidget {
-  const IntroSocialPage({super.key});
+class HeaderSocialSection extends StatelessWidget {
+  const HeaderSocialSection({super.key});
 
   @override
   Widget build(BuildContext context) {

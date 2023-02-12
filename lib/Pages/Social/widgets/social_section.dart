@@ -1,6 +1,7 @@
+import 'package:appyoga/Pages/Login/login_page.dart';
+import 'package:flutter/material.dart';
 import 'package:appyoga/delayed_animation.dart';
 import 'package:appyoga/main.dart';
-import 'package:flutter/material.dart';
 
 class SocialSection extends StatelessWidget {
   const SocialSection({super.key});
@@ -19,7 +20,14 @@ class SocialSection extends StatelessWidget {
             child: Column(
               children: [
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const LoginPage(),
+                      ),
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
                     shape: const StadiumBorder(),
                     backgroundColor: dRed,

@@ -1,7 +1,7 @@
-import 'package:appyoga/Pages/widgets/appbar_pages.dart';
-import 'package:appyoga/Pages/widgets/social_section.dart';
 import 'package:flutter/material.dart';
-import 'package:appyoga/Pages/widgets/intro_social_page.dart';
+import 'package:appyoga/Pages/widgets/appbar_pages.dart';
+import 'package:appyoga/Pages/Social/widgets/header_social_section.dart';
+import 'package:appyoga/Pages/Social/widgets/social_section.dart';
 
 class SocialPage extends StatelessWidget {
   const SocialPage({super.key});
@@ -13,7 +13,7 @@ class SocialPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: const [
-            IntroSocialPage(),
+            HeaderSocialSection(),
             SocialSection(),
           ],
         ),
